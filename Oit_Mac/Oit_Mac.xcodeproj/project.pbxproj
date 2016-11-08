@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62FD2521DD1B19E002EDFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FD2511DD1B19E002EDFF6 /* AppDelegate.m */; };
+		B62FD2551DD1B19E002EDFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FD2541DD1B19E002EDFF6 /* main.m */; };
+		B62FD2571DD1B19E002EDFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62FD2561DD1B19E002EDFF6 /* Assets.xcassets */; };
+		B62FD25A1DD1B19E002EDFF6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62FD2581DD1B19E002EDFF6 /* MainMenu.xib */; };
+		B62FD2651DD1B19F002EDFF6 /* Oit_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FD2641DD1B19F002EDFF6 /* Oit_MacTests.m */; };
+		B62FD2701DD1B19F002EDFF6 /* Oit_MacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FD26F1DD1B19F002EDFF6 /* Oit_MacUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B62FD2611DD1B19F002EDFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62FD2451DD1B19E002EDFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62FD24C1DD1B19E002EDFF6;
+			remoteInfo = Oit_Mac;
+		};
+		B62FD26C1DD1B19F002EDFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62FD2451DD1B19E002EDFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62FD24C1DD1B19E002EDFF6;
+			remoteInfo = Oit_Mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B62FD24D1DD1B19E002EDFF6 /* Oit_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oit_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FD2501DD1B19E002EDFF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B62FD2511DD1B19E002EDFF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B62FD2541DD1B19E002EDFF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B62FD2561DD1B19E002EDFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B62FD2591DD1B19E002EDFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B62FD25B1DD1B19E002EDFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62FD2601DD1B19F002EDFF6 /* Oit_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oit_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FD2641DD1B19F002EDFF6 /* Oit_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oit_MacTests.m; sourceTree = "<group>"; };
+		B62FD2661DD1B19F002EDFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62FD26B1DD1B19F002EDFF6 /* Oit_MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oit_MacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FD26F1DD1B19F002EDFF6 /* Oit_MacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oit_MacUITests.m; sourceTree = "<group>"; };
+		B62FD2711DD1B19F002EDFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62FD24A1DD1B19E002EDFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FD25D1DD1B19F002EDFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FD2681DD1B19F002EDFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62FD2441DD1B19E002EDFF6 = {
+			isa = PBXGroup;
+			children = (
+				B62FD24F1DD1B19E002EDFF6 /* Oit_Mac */,
+				B62FD2631DD1B19F002EDFF6 /* Oit_MacTests */,
+				B62FD26E1DD1B19F002EDFF6 /* Oit_MacUITests */,
+				B62FD24E1DD1B19E002EDFF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62FD24E1DD1B19E002EDFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62FD24D1DD1B19E002EDFF6 /* Oit_Mac.app */,
+				B62FD2601DD1B19F002EDFF6 /* Oit_MacTests.xctest */,
+				B62FD26B1DD1B19F002EDFF6 /* Oit_MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62FD24F1DD1B19E002EDFF6 /* Oit_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				B62FD2501DD1B19E002EDFF6 /* AppDelegate.h */,
+				B62FD2511DD1B19E002EDFF6 /* AppDelegate.m */,
+				B62FD2561DD1B19E002EDFF6 /* Assets.xcassets */,
+				B62FD2581DD1B19E002EDFF6 /* MainMenu.xib */,
+				B62FD25B1DD1B19E002EDFF6 /* Info.plist */,
+				B62FD2531DD1B19E002EDFF6 /* Supporting Files */,
+			);
+			path = Oit_Mac;
+			sourceTree = "<group>";
+		};
+		B62FD2531DD1B19E002EDFF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B62FD2541DD1B19E002EDFF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B62FD2631DD1B19F002EDFF6 /* Oit_MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				B62FD2641DD1B19F002EDFF6 /* Oit_MacTests.m */,
+				B62FD2661DD1B19F002EDFF6 /* Info.plist */,
+			);
+			path = Oit_MacTests;
+			sourceTree = "<group>";
+		};
+		B62FD26E1DD1B19F002EDFF6 /* Oit_MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B62FD26F1DD1B19F002EDFF6 /* Oit_MacUITests.m */,
+				B62FD2711DD1B19F002EDFF6 /* Info.plist */,
+			);
+			path = Oit_MacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62FD24C1DD1B19E002EDFF6 /* Oit_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FD2741DD1B19F002EDFF6 /* Build configuration list for PBXNativeTarget "Oit_Mac" */;
+			buildPhases = (
+				B62FD2491DD1B19E002EDFF6 /* Sources */,
+				B62FD24A1DD1B19E002EDFF6 /* Frameworks */,
+				B62FD24B1DD1B19E002EDFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oit_Mac;
+			productName = Oit_Mac;
+			productReference = B62FD24D1DD1B19E002EDFF6 /* Oit_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B62FD25F1DD1B19F002EDFF6 /* Oit_MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FD2771DD1B19F002EDFF6 /* Build configuration list for PBXNativeTarget "Oit_MacTests" */;
+			buildPhases = (
+				B62FD25C1DD1B19F002EDFF6 /* Sources */,
+				B62FD25D1DD1B19F002EDFF6 /* Frameworks */,
+				B62FD25E1DD1B19F002EDFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62FD2621DD1B19F002EDFF6 /* PBXTargetDependency */,
+			);
+			name = Oit_MacTests;
+			productName = Oit_MacTests;
+			productReference = B62FD2601DD1B19F002EDFF6 /* Oit_MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B62FD26A1DD1B19F002EDFF6 /* Oit_MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FD27A1DD1B19F002EDFF6 /* Build configuration list for PBXNativeTarget "Oit_MacUITests" */;
+			buildPhases = (
+				B62FD2671DD1B19F002EDFF6 /* Sources */,
+				B62FD2681DD1B19F002EDFF6 /* Frameworks */,
+				B62FD2691DD1B19F002EDFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62FD26D1DD1B19F002EDFF6 /* PBXTargetDependency */,
+			);
+			name = Oit_MacUITests;
+			productName = Oit_MacUITests;
+			productReference = B62FD26B1DD1B19F002EDFF6 /* Oit_MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B62FD2451DD1B19E002EDFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = friday;
+				TargetAttributes = {
+					B62FD24C1DD1B19E002EDFF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B62FD25F1DD1B19F002EDFF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B62FD24C1DD1B19E002EDFF6;
+					};
+					B62FD26A1DD1B19F002EDFF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B62FD24C1DD1B19E002EDFF6;
+					};
+				};
+			};
+			buildConfigurationList = B62FD2481DD1B19E002EDFF6 /* Build configuration list for PBXProject "Oit_Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B62FD2441DD1B19E002EDFF6;
+			productRefGroup = B62FD24E1DD1B19E002EDFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62FD24C1DD1B19E002EDFF6 /* Oit_Mac */,
+				B62FD25F1DD1B19F002EDFF6 /* Oit_MacTests */,
+				B62FD26A1DD1B19F002EDFF6 /* Oit_MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62FD24B1DD1B19E002EDFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FD2571DD1B19E002EDFF6 /* Assets.xcassets in Resources */,
+				B62FD25A1DD1B19E002EDFF6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FD25E1DD1B19F002EDFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FD2691DD1B19F002EDFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62FD2491DD1B19E002EDFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FD2551DD1B19E002EDFF6 /* main.m in Sources */,
+				B62FD2521DD1B19E002EDFF6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FD25C1DD1B19F002EDFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FD2651DD1B19F002EDFF6 /* Oit_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FD2671DD1B19F002EDFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FD2701DD1B19F002EDFF6 /* Oit_MacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B62FD2621DD1B19F002EDFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62FD24C1DD1B19E002EDFF6 /* Oit_Mac */;
+			targetProxy = B62FD2611DD1B19F002EDFF6 /* PBXContainerItemProxy */;
+		};
+		B62FD26D1DD1B19F002EDFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62FD24C1DD1B19E002EDFF6 /* Oit_Mac */;
+			targetProxy = B62FD26C1DD1B19F002EDFF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B62FD2581DD1B19E002EDFF6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62FD2591DD1B19E002EDFF6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B62FD2721DD1B19F002EDFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B62FD2731DD1B19F002EDFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B62FD2751DD1B19F002EDFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Oit_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wubaofeng.Oit-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FD2761DD1B19F002EDFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Oit_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wubaofeng.Oit-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FD2781DD1B19F002EDFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Oit_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wubaofeng.Oit-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oit_Mac.app/Contents/MacOS/Oit_Mac";
+			};
+			name = Debug;
+		};
+		B62FD2791DD1B19F002EDFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Oit_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wubaofeng.Oit-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oit_Mac.app/Contents/MacOS/Oit_Mac";
+			};
+			name = Release;
+		};
+		B62FD27B1DD1B19F002EDFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Oit_MacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wubaofeng.Oit-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Oit_Mac;
+			};
+			name = Debug;
+		};
+		B62FD27C1DD1B19F002EDFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Oit_MacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wubaofeng.Oit-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Oit_Mac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62FD2481DD1B19E002EDFF6 /* Build configuration list for PBXProject "Oit_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FD2721DD1B19F002EDFF6 /* Debug */,
+				B62FD2731DD1B19F002EDFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FD2741DD1B19F002EDFF6 /* Build configuration list for PBXNativeTarget "Oit_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FD2751DD1B19F002EDFF6 /* Debug */,
+				B62FD2761DD1B19F002EDFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B62FD2771DD1B19F002EDFF6 /* Build configuration list for PBXNativeTarget "Oit_MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FD2781DD1B19F002EDFF6 /* Debug */,
+				B62FD2791DD1B19F002EDFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B62FD27A1DD1B19F002EDFF6 /* Build configuration list for PBXNativeTarget "Oit_MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FD27B1DD1B19F002EDFF6 /* Debug */,
+				B62FD27C1DD1B19F002EDFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B62FD2451DD1B19E002EDFF6 /* Project object */;
+}
